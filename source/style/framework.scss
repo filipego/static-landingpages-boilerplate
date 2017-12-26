@@ -1,25 +1,17 @@
-// Variables
-$primaryHeaderFont: 'Playfair Display';
-$bodyFont: 'Roboto', sans-serif;
-$navFont: 'Nunito Sans', sans-serif;
-$primaryColor: #E45A76;
-$bodyColor: #fff;
-
-
 // Basic Styles
 
 body {
-  font-family: $bodyFont;
+  font-family: $primaryFont;
   font-size: 16px;
   font-size: 1rem;
   background: $bodyColor;
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
-  color: rgba(0,0,0,.6);
+  color: rgba(0,0,0,.55);
 }
 
 p {
-  font-size: 1rem;
+  font-size: .95rem;
   line-height: 1.5em;
   margin-bottom: 15px;
 }
@@ -43,27 +35,39 @@ a{
 }
 
 h1, .h1 {
+  color: $headerColor;
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 h2, .h2 {
+  color: $headerColor;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 h3, .h3 {
+  color: $headerColor;
   font-size: 1.75rem;
+  font-weight: bold;
 }
 
 h4, .h4 {
+  color: $headerColor;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 h5, .h5 {
+  color: $headerColor;
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 h6, .h6 {
+  color: $headerColor;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 img{
@@ -103,6 +107,7 @@ img{
 /* Child is .col */
 .col {
   flex: 1;
+  padding: 0 20px
 }
 
 .flex-row {
@@ -170,7 +175,6 @@ img{
 
   h2{
     font-size: 1.8rem;
-    margin-bottom: 30px;
   }
 }
 

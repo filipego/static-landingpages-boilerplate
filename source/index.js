@@ -1,7 +1,6 @@
 // import $ from 'jquery'; Before using jQuery, install it with `npm install --save jquery`
 import './style/reset.css';
-import './style/framework.scss';
-import './style/style.scss';
+import './style/all-styles.scss';
 
 
 /*
